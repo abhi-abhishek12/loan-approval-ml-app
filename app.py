@@ -5,8 +5,7 @@ from sklearn.preprocessing import LabelEncoder, StandardScaler
 from sklearn.linear_model import LogisticRegression
 
 # Load dataset
-data = pd.read_csv(r"C:\Users\punit\OneDrive\Documents\loan dataset\loan-prediction-dataset.csv")
-
+data = pd.read_csv(r"C:\Users\punit\OneDrive\Documents\loan_prediction_approval\loan-prediction-dataset.csv")
 
 # Drop Loan_ID
 data = data.drop("Loan_ID", axis=1)
